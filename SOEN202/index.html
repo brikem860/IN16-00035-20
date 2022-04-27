@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <a href="index.html"><h2 class="logo">bri<span style="color: red;">M</span>s</h2></a>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a style="color: #28e9d6; border-bottom: 2px solid #ff0000d3;"href="brito_web.html">HOME</a></li>
+                    <li><a href="services.html">SERVICE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    
+                    
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="enter your text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div> 
+        <div class="content">
+            <h1>Data science & <br><span>Analytics</span> <br>Services</h1>
+            <p class="par" style="color: gray;">we offer quality services for our esteemed customers ranging from data science to data analytics <br> full time and part time courses are also available
+                </p>
+
+                <button class="cn"><a href="signup.html">JOIN US</a></button>
+
+                <div class="form">
+                    <h2>Login</h2>
+                <form action="" method="get" id="formw">
+                    <input type="email" id="email1" name="email" placeholder="Enter Email Here" required>
+                    <input type="password" id="password1" name="" placeholder="Enter Password Here" required>
+                    <div id="errord" style="color: rgb(211, 43, 43);"></div>
+                    <button class="btnn" type="submit">Login</button>
+                </form>
+                    <p class="link">Don't have an account<br>
+                    <a href="signup.html">Sign up </a> here</a></p>
+                    
+                    
+                </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script>
+        
+        const password=document.getElementById(type = "password1")
+        const formt = document.getElementById("formw")
+        const errorc = document.getElementById("errord")
+
+        formt.addEventListener( 'submit' , (a) => {
+            let mess = []
+            if(password.value.lenght <6){
+                mess.push("incorrect")
+            }
+            if(mess.length > 0){
+                a.preventDefault()
+                errorc.innerText = mess.join(",")
+            }
+        })
+    </script>
+</body>
+</html>
+<!-- const password = document.getElementById('password1')
+        window.alert(5 + 6);
+        const formt = document.getElementById('formw')
+        const errorm = document.getElementById('errord')
+        
+        formt.addEventListener('submit', (e) => {
+            let messages2 = []
+            
+            if(password.value.length < 6 || password.value.length >20){
+                messages.push('password lengt should be 6-20 char')
+            }
+            if(messages2.length > 0){
+                e.preventDefault()
+                errorm.innerText = messages2.join(',') -->

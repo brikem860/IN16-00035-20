@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.main{
+    width: 100%;
+    /*background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(pietro-jeng-n6B49lTx7NM-unsplash.jpg);*/
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* background: linear-gradient(to top, rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%), url(osman-rana-h8ZvH1Nf7Bk-unsplash.jpg); */
+}
+
+.navbar{
+    
+    height: 75px;
+    margin: auto;
+    background-color: black;
+    
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color:#28e9d6;
+;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: 300;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #28e9d6
+;
+}
+
+.section{
+    width: 100%;
+    
+    border-top-left-radius: 15%;
+   
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .contentt h3{
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 19px;
+
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-size:15px ;
+    
+}
+.content-section .media{
+    margin: 40px 40px;
+
+}
+.content-section .media i{
+    color:blue;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .media i:hover{
+    color: #3d3d3d;
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    
+    position: relative;
+}
+
